@@ -1,0 +1,11 @@
+---
+- name: Test one
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: test task
+      debug: msg="{{ Test message from main.yml}}"
+  roles:
+    - role: roles1
+  
+
