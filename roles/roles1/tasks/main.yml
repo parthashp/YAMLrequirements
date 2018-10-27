@@ -1,3 +1,0 @@
----
-# tasks file for roles1
-- debug: msg="TEST from ROLES1"

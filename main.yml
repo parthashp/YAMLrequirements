@@ -3,8 +3,8 @@
   hosts: localhost
   connection: local
   gather_facts: false
-#  tasks:
-#    - name: test task
-#      debug: msg="{{ Test message from main.yml}}"
+  tasks:
+    - name: test task
+      debug: msg="Test message from main.yml"
   roles:
     - roles1
