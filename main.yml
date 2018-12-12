@@ -8,5 +8,7 @@
       debug: msg="Test message from main.yml"
     - name: Local command
       command: hostname
+      register: output
+    - debug: msg="{{output}}"
   roles:
     - roles1
